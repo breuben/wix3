@@ -6,6 +6,8 @@
 #include <oledberr.h>
 #include <sqloledb.h>
 
+// CLSID for SQL Native Client 11 from sqlncli.h
+extern const GUID OLEDBDECLSPEC CLSID_SQLNCLI11 = {0x397C2819L,0x8272,0x4532,{0xAD,0x3A,0xFB,0x5E,0x43,0xBE,0xAA,0x39}};
 
 #ifdef __cplusplus
 extern "C" {
